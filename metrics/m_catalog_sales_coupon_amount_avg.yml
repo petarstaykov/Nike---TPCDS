@@ -1,0 +1,7 @@
+unique_name: Catalog Sales Average Coupon Amount
+object_type: metric
+label: Catalog Sales Average Coupon Amount
+description: Average Discount Amount
+calculation_method: average
+column: cs_sales_price
+dataset: catalog_sales

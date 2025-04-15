@@ -1,0 +1,6 @@
+unique_name: Average Ext Sales Price
+object_type: metric
+label: Average Ext Sales Price
+calculation_method: average
+dataset: store_sales
+column: ss_ext_sales_price

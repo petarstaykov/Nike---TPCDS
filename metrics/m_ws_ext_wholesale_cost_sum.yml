@@ -1,0 +1,7 @@
+unique_name: Web Ext Wholesale Cost
+object_type: metric
+label: Web Ext Wholesale Cost
+calculation_method: sum
+column: ws_ext_wholesale_cost
+dataset: web_sales
+unrelated_dimensions_handling: empty

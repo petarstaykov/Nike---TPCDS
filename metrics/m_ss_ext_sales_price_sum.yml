@@ -1,0 +1,7 @@
+unique_name: Store Ext Sales Price
+object_type: metric
+label: Store Ext Sales Price
+calculation_method: sum
+column: ss_ext_sales_price
+dataset: store_sales
+unrelated_dimensions_handling: repeat

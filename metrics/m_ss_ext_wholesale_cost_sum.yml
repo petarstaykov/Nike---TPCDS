@@ -1,0 +1,7 @@
+unique_name: Store Ext Wholesale Cost
+object_type: metric
+label: Store Ext Wholesale Cost
+calculation_method: sum
+column: ss_ext_wholesale_cost
+dataset: store_sales
+unrelated_dimensions_handling: empty

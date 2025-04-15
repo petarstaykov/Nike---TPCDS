@@ -1,0 +1,7 @@
+unique_name: Store Sales Increase
+object_type: metric_calc
+label: Store Sales Increase
+expression: "CASE WHEN ISEMPTY([Measures].[Store Ext Sales Price])\nTHEN NULL \n\
+  ELSE \n([Sold Date Dimensions].[Sold Date Dimensions].CurrentMember, [Measures].[Store Ext Sales Price])\
+  \ / ([Sold Date Dimensions].[Sold Date Dimensions].CurrentMember.PrevMember, [Measures].[Store Ext Sales Price])\n\
+  END"

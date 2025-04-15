@@ -1,0 +1,7 @@
+unique_name: Inventory Quantity On Hand
+object_type: metric
+label: Inventory Quantity On Hand
+description: Available Inventory
+calculation_method: sum
+column: inv_quantity_on_hand
+dataset: inventory

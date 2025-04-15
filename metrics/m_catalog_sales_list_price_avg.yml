@@ -1,0 +1,6 @@
+unique_name: Catalog Sales Average List Price
+object_type: metric
+label: Catalog Sales Average List Price
+calculation_method: average
+column: cs_list_price
+dataset: catalog_sales

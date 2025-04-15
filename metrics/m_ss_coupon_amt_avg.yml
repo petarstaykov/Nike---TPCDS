@@ -1,0 +1,6 @@
+unique_name: Average Store Sales Coupon Amount
+object_type: metric
+label: Average Store Sales Coupon Amount
+calculation_method: average
+dataset: store_sales
+column: ss_coupon_amt

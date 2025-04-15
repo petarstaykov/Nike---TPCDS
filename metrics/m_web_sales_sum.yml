@@ -1,0 +1,7 @@
+unique_name: Web Sales
+object_type: metric
+label: Web Sales
+description: Total Web Sales
+calculation_method: sum
+column: Web Sales
+dataset: web_sales

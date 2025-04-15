@@ -1,0 +1,7 @@
+unique_name: Web and Catalog Sales Price Growth
+object_type: metric_calc
+label: Web and Catalog Sales Price Growth
+description: Combined catalog and web price growth	
+expression: |-
+  [Measures].[Web and Catalog Sales] /
+  (ParallelPeriod([Sold Date Dimensions].[Sold Date Week Hierarchy].[Sold Calendar Week], -53, [Sold Date Dimensions].[Sold Date Week Hierarchy].CurrentMember), [Measures].[Web and Catalog Sales])

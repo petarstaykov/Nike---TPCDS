@@ -1,0 +1,132 @@
+unique_name: Product Dimension
+object_type: dimension
+label: Product Dimension
+hierarchies:
+  - unique_name: Product Dimension
+    label: Product Dimension
+    filter_empty: 'yes'
+    folder: Product Attributes
+    levels:
+      - unique_name: Product Category
+      - unique_name: Product Dimension
+        secondary_attributes:
+          - unique_name: Product Color
+            label: Product Color
+            description: Item Color
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_color
+            name_column: i_color
+            sort_column: i_color
+          - unique_name: Product Size
+            label: Product Size
+            description: Item Size
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_size
+            name_column: i_size
+            sort_column: i_size
+          - unique_name: Product Brand ID
+            label: Product Brand ID
+            description: Item Brand ID
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_brand_id
+            name_column: i_brand_id
+            sort_column: i_brand_id
+          - unique_name: Product Brand Name
+            label: Product Brand Name
+            description: Item Brand Name
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_brand_id
+            name_column: i_brand
+            sort_column: i_brand_id
+          - unique_name: Product Class ID
+            label: Product Class ID
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_class_id
+            name_column: i_class_id
+            sort_column: i_class_id
+          - unique_name: Product Class Name
+            label: Product Class Name
+            description: Item Product Class Name
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_class
+            name_column: i_class
+            sort_column: i_class
+          - unique_name: Product Current Price
+            label: Product Current Price
+            description: item price
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_current_price
+            name_column: i_current_price
+            sort_column: i_current_price
+          - unique_name: Product Item ID
+            label: Product Item ID
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_item_id
+            name_column: i_item_id
+            sort_column: i_item_id
+          - unique_name: Product Manager ID
+            label: Product Manager ID
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_manager_id
+            name_column: i_manager_id
+            sort_column: i_manager_id
+          - unique_name: Product Manufacturer ID
+            label: Product Manufacturer ID
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_manufact_id
+            name_column: i_manufact_id
+            sort_column: i_manufact_id
+          - unique_name: Product Manufacturer Name
+            label: Product Manufacturer Name
+            description: item Manufacturer name
+            dataset: item
+            folder: Product Attributes
+            key_columns:
+              - i_manager_id
+            name_column: i_manufact
+            sort_column: i_manager_id
+          - unique_name: Item Product Name
+            label: Item Product Name
+            description: the name of the product, the item name
+            contains_unique_names: false
+            dataset: item
+            is_unique_key: false
+            key_columns:
+              - i_product_name
+            name_column: i_product_name
+level_attributes:
+  - unique_name: Product Category
+    label: Product category
+    description: Item or Product Category Name
+    dataset: item
+    key_columns:
+      - i_category
+    name_column: i_category
+  - unique_name: Product Dimension
+    label: Product Item
+    dataset: item
+    is_unique_key: true
+    key_columns:
+      - i_item_sk
+    name_column: i_item_desc
+type: standard

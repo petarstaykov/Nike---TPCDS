@@ -1,0 +1,7 @@
+unique_name: Web Quantity Sold
+object_type: metric
+label: Web Quantity Sold
+calculation_method: sum
+column: ws_quantity
+dataset: web_sales
+unrelated_dimensions_handling: empty

@@ -1,0 +1,6 @@
+unique_name: Connection - TPCDS
+label: Connection - TPCDS
+object_type: connection
+as_connection: DBX - PAT_POC
+database: non_published_analytics
+schema: tpcds100

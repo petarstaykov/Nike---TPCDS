@@ -1,0 +1,8 @@
+unique_name: Web Ext Discount Amount
+object_type: metric
+label: Web Ext Discount Amount
+description: Web Extended Discount
+calculation_method: sum
+column: ws_ext_discount_amt
+dataset: web_sales
+unrelated_dimensions_handling: empty

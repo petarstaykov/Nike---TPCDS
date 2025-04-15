@@ -1,0 +1,7 @@
+unique_name: Store Net Paid Amount
+object_type: metric
+label: Store Net Paid Amount
+calculation_method: sum
+column: ss_net_paid
+dataset: store_sales
+unrelated_dimensions_handling: empty

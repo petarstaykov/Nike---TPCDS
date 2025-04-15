@@ -1,0 +1,7 @@
+unique_name: Store Customer Count
+object_type: metric
+label: Store Customer Count
+description: Number of Store Customers
+calculation_method: count non-null
+column: ss_customer_sk
+dataset: store_sales

@@ -1,0 +1,28 @@
+unique_name: Net Profit Tier
+object_type: dimension
+label: Net Profit Tier
+is_degenerate: true
+
+hierarchies:
+
+  - unique_name: Net Profit Tier
+    label: Net Profit Tier
+    folder: Product Attributes
+    filter_empty: "yes"
+
+    levels:
+
+      - unique_name: Net Profit Tier
+
+level_attributes:
+
+  - unique_name: Net Profit Tier
+    label: Net Profit Tier
+    dataset: store_sales
+    name_column: ss_net_profit_tier
+    key_columns:
+      - ss_net_profit_tier
+
+modeler_metadata:
+  version: 0
+  modified: "false"

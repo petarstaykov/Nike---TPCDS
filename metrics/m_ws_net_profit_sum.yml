@@ -1,0 +1,7 @@
+unique_name: Web Net Profit
+object_type: metric
+label: Web Net Profit
+calculation_method: sum
+column: ws_net_profit
+dataset: web_sales
+unrelated_dimensions_handling: empty

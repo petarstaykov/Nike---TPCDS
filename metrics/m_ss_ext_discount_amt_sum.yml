@@ -1,0 +1,7 @@
+unique_name: Store Ext Discount Amount
+object_type: metric
+label: Store Ext Discount Amount
+calculation_method: sum
+column: ss_ext_discount_amt
+dataset: store_sales
+unrelated_dimensions_handling: empty
